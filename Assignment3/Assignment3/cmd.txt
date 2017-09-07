@@ -1,0 +1,16 @@
+====================================================================================
+					COMMAND 
+====================================================================================
+LOAD gu_vertex.txt gu_edge.txt dong_vertex.txt dong_edge.txt mechanic.txt
+PIPE_BROKEN 노원구 / 상계1동 / 상계2동
+PIPE_REPAIR 노원구
+PRINT 노원구
+PRINT 정비사
+UPDATE update_dong_edge_cost.txt
+PIPE_BROKEN 강남구 / 개포3동 / 청담2동
+PIPE_BROKEN 용산구 / 후암2동 / 후암1동
+PIPE_REPAIR 강남구
+PRINT 정비사
+PRINT 지도
+SAVE
+EXIT
